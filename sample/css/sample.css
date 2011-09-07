@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	font-size: 12px;
+}
+
+div#page {
+	width: 400px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.toggle,
+.smoothToggle {
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+
+.trigger a {
+	display: block;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	background: #eee;
+	outline: none;
+}
+.trigger a:hover {
+	background: #ddd;
+}
+
+.target {
+	padding: 20px 10px;
+}
+
