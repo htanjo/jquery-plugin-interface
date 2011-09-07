@@ -3,11 +3,10 @@
 	$.plugin = function(options) {
 		
 		// Definition
-		var
-		name = options.name,
-		parent = options.parent,
-		defaults = options.defaults,
-		methods = options.methods;
+		var name = options.name,
+			parent = options.parent,
+			defaults = options.defaults,
+			methods = options.methods;
 		
 		// Constructor
 		var Plugin = $[name] = function(element, options) {
