@@ -3,7 +3,7 @@ body {
 	font-size: 12px;
 }
 
-div#page {
+div#container {
 	width: 400px;
 	margin: 0 auto;
 	padding: 100px 0;
